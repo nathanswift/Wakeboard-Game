@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <link href="assets/css/styles.css" rel="stylesheet" media="screen">
+    <title>Wakeboarder</title>
+</head>
+
+<body>
+
+    <!-- main app wrapper -->
+    <div id="app">
+
+        <!-- loading -->
+        <div class="scene" id="loading">
+            <h1>Get ready to ride the wave...</h1>
+            <div id="loading-bar-wrapper">
+                <div id="loading-bar"></div>
+            </div>
+        </div>
+
+        <!-- menu -->
+        <div class="scene" id="menu">
+            <h1>Wakeboard JS</h1>
+            <div class="btn" data-method="start">Start</div>
+            <div class="btn" data-method="about">About</div>
+            <div class="btn" data-method="settings">Settings</div>
+            <span>Developed by @nateswift and @jadeallencook</span>
+        </div>
+
+        <!-- game -->
+        <div class="scene" id="game">
+            <div id="player"></div>
+        </div>
+
+        <!-- game over -->
+        <div class="scene" id="game-over"></div>
+
+    </div>
+
+    <!-- main game script -->
+    <script src="assets/scripts/wakeboarder.js"></script>
+
+    <!-- scenes -->
+    <script src="assets/scripts/loading.js"></script>
+    <script src="assets/scripts/menu.js"></script>
+    <script src="assets/scripts/game.js"></script>
+    <script src="assets/scripts/game-over.js"></script>
+
+    <!-- controls and init -->
+    <script src="assets/scripts/controls.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>
