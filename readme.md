@@ -8,7 +8,7 @@ This file runs larger tasks like changing scenes, keeping track of high scores, 
 
 ## 2. scenes - (menu.js, game.js, game-over.js)
 
-Each scene has a corresponding JavaScript file associated with it and every scene (except loading) has a load method.
+Each scene has a corresponding JavaScript file associated with it and every scene has a load method that is ran when it is loaded.
 
 ## 3. loading - loading.js
 
